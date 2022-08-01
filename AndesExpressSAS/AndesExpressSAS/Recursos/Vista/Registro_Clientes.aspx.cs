@@ -13,5 +13,10 @@ namespace AndesExpressSAS.Recursos.Vista
         {
 
         }
+
+        protected void botonRegistro_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
