@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="estilo.css" />
     <Content Include="Recursos\Vista\Destinatario.aspx" />
     <Content Include="Recursos\Vista\InicioSesion.aspx" />
     <Content Include="Recursos\Vista\Producto.aspx" />
@@ -75,6 +76,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Plantilla.Master.cs">
+      <DependentUpon>Plantilla.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Plantilla.Master.designer.cs">
+      <DependentUpon>Plantilla.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recursos\Vista\Destinatario.aspx.cs">
       <DependentUpon>Destinatario.aspx</DependentUpon>
@@ -114,6 +122,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Plantilla.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
