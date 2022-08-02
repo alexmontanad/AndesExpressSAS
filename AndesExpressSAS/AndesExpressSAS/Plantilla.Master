@@ -4,39 +4,41 @@
 
 <html>
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="estilo.css" />
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
+
     <header class="header">
-      <nav class="nav">
-        <a href="#" class="logo nav-link">Logo</a>
-        <button class="nav-toggle" aria-label="Abrir menú">
-          <i class="fas fa-bars"></i>
-        </button>
-        <ul class="nav-menu">
-          <li class="nav-menu-item">
-            <a href="#" class="nav-menu-link nav-link">Blog</a>
-          </li>
-          <li class="nav-menu-item">
-            <a href="#" class="nav-menu-link nav-link">Videos</a>
-          </li>
-          <li class="nav-menu-item">
-            <a href="#" class="nav-menu-link nav-link">Sobre mí</a>
-          </li>
-          <li class="nav-menu-item">
-            <a href="#" class="nav-menu-link nav-link nav-menu-link_active"
-              >Contacto</a
-            >
-          </li>
-        </ul>
-      </nav>
+        <nav class="nav">
+            <a href="index.aspx" class="logo nav-link">Logo</a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="Enviar.aspx" class="nav-menu-link nav-link">Enviar</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="Rastrear.aspx" class="nav-menu-link nav-link">Rastrear</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="Cotizar.aspx" class="nav-menu-link nav-link">Cotizar</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="Login.aspx" class="nav-menu-link nav-link nav-menu-link_active">Iniciar sesion</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="Registro.aspx" class="nav-menu-link nav-link nav-menu-link_active">Registrarse</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <form id="form1" runat="server">
-        <div>
+        <div id="principal">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>

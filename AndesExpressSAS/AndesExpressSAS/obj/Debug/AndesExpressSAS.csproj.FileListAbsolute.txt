@@ -119,3 +119,24 @@ C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\
 C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\obj\Debug\AndesExpressSAS.dll
 C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\obj\Debug\AndesExpressSAS.pdb
 >>>>>>> afe124eea0f8c84e8573cb5289562da3fdfe1af8
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\EntityFramework.dll
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\EntityFramework.SqlServer.dll
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.Owin.dll
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.Owin.Security.dll
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Newtonsoft.Json.dll
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Owin.dll
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\EntityFramework.xml
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\EntityFramework.SqlServer.xml
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.Owin.xml
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.Owin.Security.xml
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Alex\Documents\1 Programacion\1 Proyectos\C#\Proyectos\AndesExpressSAS\AndesExpressSAS\bin\Newtonsoft.Json.xml

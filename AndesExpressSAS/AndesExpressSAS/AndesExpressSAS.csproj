@@ -43,7 +43,40 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.3\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.3\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.3\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -68,10 +101,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="estilo.css" />
-    <Content Include="Recursos\Vista\Destinatario.aspx" />
+    <Content Include="Recursos\Vista\Cotizar.aspx" />
+    <Content Include="Recursos\Vista\index.aspx" />
     <Content Include="Recursos\Vista\InicioSesion.aspx" />
-    <Content Include="Recursos\Vista\Producto.aspx" />
-    <Content Include="Recursos\Vista\Registro_Clientes.aspx" />
+    <Content Include="Recursos\Vista\Login.aspx" />
+    <Content Include="Recursos\Vista\Registro.aspx" />
     <Content Include="Recursos\Vista\Registro_Empleado.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -84,12 +118,19 @@
       <DependentUpon>Plantilla.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Recursos\Vista\Destinatario.aspx.cs">
-      <DependentUpon>Destinatario.aspx</DependentUpon>
+    <Compile Include="Recursos\Vista\Cotizar.aspx.cs">
+      <DependentUpon>Cotizar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Recursos\Vista\Destinatario.aspx.designer.cs">
-      <DependentUpon>Destinatario.aspx</DependentUpon>
+    <Compile Include="Recursos\Vista\Cotizar.aspx.designer.cs">
+      <DependentUpon>Cotizar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\Vista\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\Vista\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Recursos\Vista\InicioSesion.aspx.cs">
       <DependentUpon>InicioSesion.aspx</DependentUpon>
@@ -98,19 +139,19 @@
     <Compile Include="Recursos\Vista\InicioSesion.aspx.designer.cs">
       <DependentUpon>InicioSesion.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Recursos\Vista\Producto.aspx.cs">
-      <DependentUpon>Producto.aspx</DependentUpon>
+    <Compile Include="Recursos\Vista\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Recursos\Vista\Producto.aspx.designer.cs">
-      <DependentUpon>Producto.aspx</DependentUpon>
+    <Compile Include="Recursos\Vista\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Recursos\Vista\Registro_Clientes.aspx.cs">
-      <DependentUpon>Registro_Clientes.aspx</DependentUpon>
+    <Compile Include="Recursos\Vista\Registro.aspx.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Recursos\Vista\Registro_Clientes.aspx.designer.cs">
-      <DependentUpon>Registro_Clientes.aspx</DependentUpon>
+    <Compile Include="Recursos\Vista\Registro.aspx.designer.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Recursos\Vista\Registro_Empleado.aspx.cs">
       <DependentUpon>Registro_Empleado.aspx</DependentUpon>
