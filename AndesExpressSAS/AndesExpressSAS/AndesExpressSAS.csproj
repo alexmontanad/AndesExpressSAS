@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Recursos\Vista\Destinatario.aspx" />
+    <Content Include="Recursos\Vista\InicioSesion.aspx" />
     <Content Include="Recursos\Vista\Producto.aspx" />
     <Content Include="Recursos\Vista\Registro_Clientes.aspx" />
     <Content Include="Recursos\Vista\Registro_Empleado.aspx" />
@@ -81,6 +82,13 @@
     </Compile>
     <Compile Include="Recursos\Vista\Destinatario.aspx.designer.cs">
       <DependentUpon>Destinatario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\Vista\InicioSesion.aspx.cs">
+      <DependentUpon>InicioSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\Vista\InicioSesion.aspx.designer.cs">
+      <DependentUpon>InicioSesion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Recursos\Vista\Producto.aspx.cs">
       <DependentUpon>Producto.aspx</DependentUpon>
